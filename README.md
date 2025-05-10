@@ -1,16 +1,21 @@
-# flutter_sqlite
+# Contact List App
 
-A new Flutter project.
+A basic Flutter app to manage contacts using SQLite for persistent storage.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add contacts with name and phone number.
+- View all saved contacts in a list.
+- Delete contacts.
 
-A few resources to get you started if this is your first Flutter project:
+## SQLite Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- SQLite is used to store contacts locally on the device.
+- The app uses the `sqflite` package to interact with the SQLite database.
+- Data is stored persistently, so contacts will remain even after the app is closed and reopened.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+
+- Flutter
+- SQLite (sqflite package)
+
